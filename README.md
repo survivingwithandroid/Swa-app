@@ -18,6 +18,10 @@ In Google Play you can find an app built using this code. Give a look.
 
 [![](http://4.bp.blogspot.com/-Bfh2unbdc84/UcGqVJKdMwI/AAAAAAAAAOc/W4kGiTU-fYk/s1600/google_plus_58.png)](http://www.google.com/+FrancescoAzzola)  [![](http://3.bp.blogspot.com/-_JSQStno9N8/UcGWEW7V9AI/AAAAAAAAAOM/_qFVUjIaySg/s1600/linkedin.png)](http://it.linkedin.com/in/francescoazzola)
 
+## Follow Surviving with Android
+[Surviving with android](http://www.survivingwithandroid.com)
+
+[![](http://4.bp.blogspot.com/-rv-qkRRWuEs/UbhpKi2IBrI/AAAAAAAAANI/HZPsxPQ2amk/s1600/google_plus.png)](http://www.google.com/+Survivingwithandroid) [![](http://3.bp.blogspot.com/-uoKWkNQ6yFk/Ubhp7EoxhMI/AAAAAAAAANY/7jeuD2uOKV8/s1600/twitter.png)](https://twitter.com/survivingwithan) [![](http://2.bp.blogspot.com/-VKiajIE8QrQ/UhtxLts5USI/AAAAAAAAAPQ/3Xvn0e50PE0/s1600/facebook.png)](https://www.facebook.com/survivingwithan)
 
 
 ##Licence
