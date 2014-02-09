@@ -24,6 +24,11 @@ In Google Play you can find an app built using this code. Give a look.
 [![](http://4.bp.blogspot.com/-rv-qkRRWuEs/UbhpKi2IBrI/AAAAAAAAANI/HZPsxPQ2amk/s1600/google_plus.png)](http://www.google.com/+Survivingwithandroid) [![](http://3.bp.blogspot.com/-uoKWkNQ6yFk/Ubhp7EoxhMI/AAAAAAAAANY/7jeuD2uOKV8/s1600/twitter.png)](https://twitter.com/survivingwithan) [![](http://2.bp.blogspot.com/-VKiajIE8QrQ/UhtxLts5USI/AAAAAAAAAPQ/3Xvn0e50PE0/s1600/facebook.png)](https://www.facebook.com/survivingwithan)
 
 
+##Contacts
+If you have any question about the code or you want to suggest to me some improvements you can contact me or join the Survivig with Android community.
+
+[![](http://4.bp.blogspot.com/-rv-qkRRWuEs/UbhpKi2IBrI/AAAAAAAAANI/HZPsxPQ2amk/s1600/google_plus.png)](https://plus.google.com/communities/102586626917632222599)
+
 ##Licence
 Copyright 2012-2014 Francesco Azzola (Surviving with Android)
 
