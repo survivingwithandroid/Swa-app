@@ -7,11 +7,8 @@ This repository contains the source code of the app described in the posts publi
 ##App
 In Google Play you can find an app built using this code. Give a look.
 
-[![](http://www.android.com/images/brand/android_app_on_play_logo_small.png)](https://play.google.com/store/apps/details?id=com.survivingwithandroid.weatherapp)
+[![](http://www.android.com/images/brand/android_app_on_play_logo_small.png)](https://play.google.com/store/search?q=survivingwithandroid)
 
-##Screenshots
-
-![](https://raw.github.com/survivingwithandroid/Swa-app/master/images/android_weather_app.png)
 
 ##Credits 
 *Author:* Francesco Azzola (JFrankie) ([survivingwithandroid@gmail.com](mailto:survivingwithandroid@gmail.com))
