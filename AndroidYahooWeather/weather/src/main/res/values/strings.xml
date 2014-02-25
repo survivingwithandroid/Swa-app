@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WeatherApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_share">Share</string>
+    <string name="action_donate">Donate</string>
+    <string name="provider">data provided by Yahoo! Weather</string>
+    <string name="update">Last update</string>
+    <string name="share_msg">There is a new weather app in the play store. Look here </string>
+
+
+    <string name="city">City</string>
+
+    <!-- Prefs -->
+    <string name="pref_unit_title">Measure unit</string>
+    <string name="temp_title">Temperature unit</string>
+    <string name="loc_title">Location</string>
+    <string name="pref_location_title">Choose the location</string>
+
+    <string name="summary_loc">Current location</string>
+    <string name="summary_temp">Current temperature unit</string>
+
+    <!-- Donate Dialog -->
+    <string name="dlg_donate_msg">If you like my work and want to use the source code, please donate a beer to me</string>
+    <string name="dlg_donate_ok">Donate!</string>
+    <string name="dlg_donate_cancel">Cancel</string>
+    <!-- Units -->
+    <string-array name="unit_names">
+            <item>°C</item>
+            <item>°F</item>
+    </string-array>
+    <string-array name="unit_values">
+        <item>c</item>
+        <item>f</item>
+    </string-array>
+
+</resources>

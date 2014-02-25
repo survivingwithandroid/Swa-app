@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.survivingwithandroid.weather" >
+
+    <uses-sdk android:minSdkVersion="12" android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:debuggable="false">
+        <activity
+            android:name="com.survivingwithandroid.weather.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".settings.WeatherPreferenceActivity"
+            android:parentActivityName="com.survivingwithandroid.weather.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.survivingwithandroid.weather.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.survivingwithandroid.weather.settings.CityFinderActivity"
+            android:parentActivityName=".settings.WeatherPreferenceActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.survivingwithandroid.weather.WeatherPreferenceActivity" />
+         </activity>
+
+    </application>
+
+</manifest>
