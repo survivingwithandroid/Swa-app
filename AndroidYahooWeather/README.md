@@ -2,12 +2,8 @@
 =======
 
 
-This repository contains the source code of the app described in the posts published in [Surviving with android] (http://www.survivingwithandroid.com)
+This is a demo app described in [Surviving with android] (http://www.survivingwithandroid.com/2014/02/android-weather-app-tutorial-step-by.html)
 
-##App
-In Google Play you can find an app built using this code. Give a look.
-
-[![](http://www.android.com/images/brand/android_app_on_play_logo_small.png)](https://play.google.com/store/apps/details?id=com.survivingwithandroid.weatherapp)
 
 ##Screenshots
 
