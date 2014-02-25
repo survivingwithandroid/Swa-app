@@ -1,4 +1,4 @@
-# Swa-app
+# Android Weather App
 =======
 
 
@@ -7,7 +7,9 @@ This is a demo app described in [Surviving with android] (http://www.survivingwi
 
 ##Screenshots
 
-![](https://raw.github.com/survivingwithandroid/Swa-app/master/images/android_weather_app.png)
+![](https://raw.github.com/survivingwithandroid/Swa-app/master/AndroidYahooWeather/art/android_weather_app.png)
+![](https://raw.github.com/survivingwithandroid/Swa-app/master/AndroidYahooWeather/art/android_weather_app_settings.png)
+![](https://raw.github.com/survivingwithandroid/Swa-app/master/AndroidYahooWeather/art/android_weather_app_settings1.png)
 
 ##Credits 
 *Author:* Francesco Azzola (JFrankie) ([survivingwithandroid@gmail.com](mailto:survivingwithandroid@gmail.com))
