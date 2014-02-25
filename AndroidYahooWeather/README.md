@@ -11,6 +11,14 @@ This is a demo app described in [Surviving with android] (http://www.survivingwi
 ![](https://raw.github.com/survivingwithandroid/Swa-app/master/AndroidYahooWeather/art/android_weather_app_settings.png)
 ![](https://raw.github.com/survivingwithandroid/Swa-app/master/AndroidYahooWeather/art/android_weather_app_settings1.png)
 
+##App
+In Google Play you can find an app built using this code. Give a look.
+
+[![](http://www.android.com/images/brand/android_app_on_play_logo_small.png)](https://play.google.com/store/search?q=com.survivingwithandroid.weather)
+
+##Support my work
+If you like my work and want to support me, download the app and you can donate to me a beer!!. Thank you
+
 ##Credits 
 *Author:* Francesco Azzola (JFrankie) ([survivingwithandroid@gmail.com](mailto:survivingwithandroid@gmail.com))
 
