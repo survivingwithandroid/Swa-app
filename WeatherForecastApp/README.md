@@ -2,7 +2,7 @@
 =======
 
 
-This repository contains the source code of the app described in the posts published in [Surviving with android] (http://www.survivingwithandroid.com)
+This is a demo app showing how to build an android weather app using openweathermap [Surviving with android] (http://www.survivingwithandroid.com)
 
 ##App
 In Google Play you can find an app built using this code. Give a look.
