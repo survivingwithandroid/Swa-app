@@ -8,9 +8,9 @@ This is a peg board app
 
 ##Screenshots
 
-![](https://github.com/survivingwithandroid/Swa-app/blob/master/PegBoardv1/art/board_1.png)
-![](https://github.com/survivingwithandroid/Swa-app/blob/master/PegBoardv1/art/board_2.png)
-![](https://github.com/survivingwithandroid/Swa-app/blob/master/PegBoardv1/art/board_3.png)
+![](https://raw.github.com/survivingwithandroid/Swa-app/master/PegBoardv1/art/board_1.png)
+![](https://raw.github.com/survivingwithandroid/Swa-app/master/PegBoardv1/art/board_2.png)
+![](https://raw.github.com/survivingwithandroid/Swa-app/master/PegBoardv1/art/board_3.png)
 
 ##Credits 
 *Author:* Francesco Azzola (JFrankie) ([survivingwithandroid@gmail.com](mailto:survivingwithandroid@gmail.com))
