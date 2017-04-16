@@ -31,11 +31,11 @@ import android.util.Log;
  */
 public class WeatherHttpClient {
 
-	private static String BASE_URL = "http://api.openweathermap.org/data/2.5/weather?q=";
+	private static String BASE_URL = "http://api.openweathermap.org/data/2.5/weather?id=1259411&appid=7c1e1adc9a526105d8e876c37299b1f7&q=";
 	private static String IMG_URL = "http://openweathermap.org/img/w/";
 
 	
-	private static String BASE_FORECAST_URL = "http://api.openweathermap.org/data/2.5/forecast/daily?mode=json&q=";
+	private static String BASE_FORECAST_URL = "http://api.openweathermap.org/data/2.5/forecast/daily?id=1259411&appid=7c1e1adc9a526105d8e876c37299b1f7&mode=json&q=";
 
 	
 	public String getWeatherData(String location, String lang) {
