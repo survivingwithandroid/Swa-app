@@ -25,6 +25,8 @@ import com.survivingwithandroid.weatherapp.model.Location;
 import com.survivingwithandroid.weatherapp.model.Weather;
 import com.survivingwithandroid.weatherapp.model.WeatherForecast;
 
+import android.util.Log;
+
 /**
  * @author Francesco
  *
@@ -33,7 +35,7 @@ public class JSONWeatherParser {
 
 	public static Weather getWeather(String data) throws JSONException  {
 		 Weather weather = new Weather();
-		System.out.println("Data ["+data+"]");
+		Log.d(General_Data.TAG,"Data ["+data+"]");
 		// We create out JSONObject from the data
 		JSONObject jObj = new JSONObject(data);
 		

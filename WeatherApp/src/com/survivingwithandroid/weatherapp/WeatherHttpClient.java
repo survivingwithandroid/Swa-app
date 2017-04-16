@@ -34,7 +34,7 @@ import java.net.URL;
  */
 public class WeatherHttpClient {
 
-	private static String BASE_URL = "http://api.openweathermap.org/data/2.5/weather?q=";
+	private static String BASE_URL = "http://api.openweathermap.org/data/2.5/weather?id=1259411&appid=7c1e1adc9a526105d8e876c37299b1f7&q=";
 	private static String IMG_URL = "http://openweathermap.org/img/w/";
 
 	
