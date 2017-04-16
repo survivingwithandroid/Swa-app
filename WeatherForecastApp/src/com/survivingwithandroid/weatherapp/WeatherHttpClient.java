@@ -23,6 +23,8 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+import android.util.Log;
+
 /**
  * @author Francesco
  *
@@ -107,7 +109,7 @@ public class WeatherHttpClient {
 			is.close();
 			con.disconnect();
 			
-			System.out.println("Buffer ["+buffer1.toString()+"]");
+			Log.d(General_Data.TAG,"Buffer ["+buffer1.toString()+"]");
 			return buffer1.toString();
 	    }
 		catch(Throwable t) {

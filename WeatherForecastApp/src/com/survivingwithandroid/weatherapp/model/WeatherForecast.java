@@ -19,6 +19,10 @@ package com.survivingwithandroid.weatherapp.model;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.survivingwithandroid.weatherapp.General_Data;
+
+import android.util.Log;
+
 /**
  * @author Francesco
  *
@@ -29,7 +33,7 @@ public class WeatherForecast {
 	
 	public void addForecast(DayForecast forecast) {
 		daysForecast.add(forecast);
-		System.out.println("Add forecast ["+forecast+"]");
+		Log.d(General_Data.TAG,"Add forecast ["+forecast+"]");
 	}
 	
 	public DayForecast getForecast(int dayNum) {

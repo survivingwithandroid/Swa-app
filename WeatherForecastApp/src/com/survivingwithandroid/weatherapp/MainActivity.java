@@ -38,6 +38,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.Menu;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -109,7 +110,7 @@ public class MainActivity extends FragmentActivity {
 
 			try {
 				weather = JSONWeatherParser.getWeather(data);
-				System.out.println("Weather ["+weather+"]");
+				Log.d(General_Data.TAG,"Weather ["+weather+"]");
 				// Let's retrieve the icon
 				weather.iconData = ( (new WeatherHttpClient()).getImage(weather.currentCondition.getIcon()));
 				
@@ -158,7 +159,7 @@ public class MainActivity extends FragmentActivity {
 			WeatherForecast forecast = new WeatherForecast();
 			try {
 				forecast = JSONWeatherParser.getForecastWeather(data);
-				System.out.println("Weather ["+forecast+"]");
+				Log.d(General_Data.TAG,"Weather ["+forecast+"]");
 				// Let's retrieve the icon
 				//weather.iconData = ( (new WeatherHttpClient()).getImage(weather.currentCondition.getIcon()));
 				
