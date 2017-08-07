@@ -1,5 +1,4 @@
-/**
- * This is a tutorial source code 
+/* This is a tutorial source code 
  * provided "as is" and without warranties.
  *
  * For any question please visit the web site
@@ -9,7 +8,8 @@
  * survivingwithandroid@gmail.com
  *
  */
-package com.survivingwithandroid.weatherapp;
+
+package com.survivingwithandroid.weatherapp; 
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
@@ -34,29 +34,34 @@ import java.net.URL;
  */
 public class WeatherHttpClient {
 
-	private static String BASE_URL = "http://api.openweathermap.org/data/2.5/weather?q=";
-	private static String IMG_URL = "http://openweathermap.org/img/w/";
+	private static final String TAG = WeatherHttpClient.class.getSimpleName();
 
-	
+    private static final String API_KEY = "f2e2fc4a9b8027ca848575bb51e40eb0";
+	private static final String BASE_URL = "http://api.openweathermap.org/data/2.5/weather?appid="+API_KEY+"&q=";
+	private static final String IMG_URL = "http://openweathermap.org/img/w/";
+    private static final String IMG_EXT = ".png";
+
+
 	public String getWeatherData(String location) {
 		HttpURLConnection con = null ;
 		InputStream is = null;
+		String url = BASE_URL + location;
 
 		try {
-			con = (HttpURLConnection) ( new URL(BASE_URL + location)).openConnection();
+			con = (HttpURLConnection) (new URL(url)).openConnection();
 			con.setRequestMethod("GET");
 			con.setDoInput(true);
-			con.setDoOutput(true);
 			con.connect();
-			
+
 			// Let's read the response
 			StringBuffer buffer = new StringBuffer();
+
 			is = con.getInputStream();
 			BufferedReader br = new BufferedReader(new InputStreamReader(is));
-			String line = null;
-			while (  (line = br.readLine()) != null )
+			String line;
+			while ((line = br.readLine()) != null) {
 				buffer.append(line + "\r\n");
-			
+			}
 			is.close();
 			con.disconnect();
 			return buffer.toString();
@@ -68,29 +73,27 @@ public class WeatherHttpClient {
 			try { is.close(); } catch(Throwable t) {}
 			try { con.disconnect(); } catch(Throwable t) {}
 		}
-
 		return null;
-				
 	}
 	
 	public byte[] getImage(String code) {
 		HttpURLConnection con = null ;
 		InputStream is = null;
 		try {
-			con = (HttpURLConnection) ( new URL(IMG_URL + code)).openConnection();
+
+			con = (HttpURLConnection) (new URL(IMG_URL + code + IMG_EXT)).openConnection();
 			con.setRequestMethod("GET");
 			con.setDoInput(true);
-			con.setDoOutput(true);
 			con.connect();
-			
+
 			// Let's read the response
 			is = con.getInputStream();
 			byte[] buffer = new byte[1024];
 			ByteArrayOutputStream baos = new ByteArrayOutputStream();
 			
-			while ( is.read(buffer) != -1)
+			while (is.read(buffer) != -1) {
 				baos.write(buffer);
-			
+			}
 			return baos.toByteArray();
 	    }
 		catch(Throwable t) {
@@ -100,8 +103,7 @@ public class WeatherHttpClient {
 			try { is.close(); } catch(Throwable t) {}
 			try { con.disconnect(); } catch(Throwable t) {}
 		}
-		
 		return null;
-		
 	}
 }
+
