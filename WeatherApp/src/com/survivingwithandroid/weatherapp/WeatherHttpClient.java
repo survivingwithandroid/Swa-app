@@ -36,7 +36,7 @@ public class WeatherHttpClient {
 
 	private static final String TAG = WeatherHttpClient.class.getSimpleName();
 
-    private static final String API_KEY = "f2e2fc4a9b8027ca848575bb51e40eb0";
+    private static final String API_KEY = "";
 	private static final String BASE_URL = "http://api.openweathermap.org/data/2.5/weather?appid="+API_KEY+"&q=";
 	private static final String IMG_URL = "http://openweathermap.org/img/w/";
     private static final String IMG_EXT = ".png";
